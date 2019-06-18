@@ -12,7 +12,7 @@ docker build --build-arg ETCDVER=3.3.1 -t fanchthesystem/debian-etcd:3.3.1 -f Do
 ## Start:
 
 ```bash
-docker run -dt -dt -p 2379:2379 --name etcd.host fanchthesystem/debian-etcd:latest
+docker run -dt -dt -p 2379:2379 --name etcd.host fanchthesystem/debian-with-etcd:latest
 ```
 
 ## Use:
